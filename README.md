@@ -26,3 +26,18 @@ Elige una pestaña (módulo), escribe una cadena o pulsa un botón de **Ejemplos
 - `main.py`: panel principal con los cuatro módulos.
 - `base.py`: controles y reproductor de pasos compartidos.
 - `nivel3_afd.py`, `nivel2_pila.py`, `nivel1_lba.py`, `nivel0_turing.py`: un módulo por nivel.
+
+
+# Jerarquía de Chomsky – Simulador Interactivo de Autómatas
+
+Aplicación de escritorio desarrollada en **Python** con interfaz gráfica (**Tkinter**) para visualizar, simular y validar el comportamiento paso a paso de modelos computacionales correspondientes a los cuatro niveles de la **Jerarquía de Chomsky**.
+
+## Requisitos e instalación
+
+- **Python 3.8 o superior** (incluye `tkinter` de forma estándar en Windows; no requiere instalar librerías externas).
+
+### Ejecutar desde GitHub
+```bash
+git clone [https://github.com/KarenBaez37/Automatas-Proyecto-Final.git](https://github.com/KarenBaez37/Automatas-Proyecto-Final.git)
+cd Automatas-Proyecto-Final
+python main.py
