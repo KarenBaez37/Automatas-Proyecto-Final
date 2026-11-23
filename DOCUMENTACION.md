@@ -9,9 +9,9 @@ Permite probar cadenas propias o ejemplos precargados y observar transiciones de
 El código está organizado de forma modular:
 
 - main.py (Panel principal y estilos): Configura la ventana principal, la paleta de colores azul y los estilos ttk, y crea un componente de pestañas (ttk.Notebook) para cambiar entre los cuatro módulos.
-- base.py (Clase base Modulo y motor de pasos): Define los controles comunes (Iniciar, Paso ▶, Auto, Reiniciar), los botones de ejemplos, el lienzo gráfico (tk.Canvas) y la barra de estado inferior.
+- base.py (Clase base Modulo y motor de pasos): Define los controles comunes (Iniciar, Paso, Auto, Reiniciar), los botones de ejemplos, el lienzo gráfico (tk.Canvas) y la barra de estado inferior.
   * Simulación por pasos: Cada nivel implementa simular(cadena), que devuelve una lista de pasos con el estado actual (q), la cinta o pila, un mensaje explicativo (msg) y el estado final (fin: None en curso, True aceptada, False rechazada).
-  * Reproducción: Permite avanzar manualmente con Paso ▶ o automáticamente con Auto mediante temporizadores (after).
+  * Reproducción: Permite avanzar manualmente con Paso o automáticamente con Auto mediante temporizadores (after).
 
 3. CONCEPTOS TEÓRICOS E IMPLEMENTACIÓN POR NIVEL
 
