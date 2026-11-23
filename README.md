@@ -12,7 +12,7 @@ python main.py
 ```
 
 ## Uso
-Elige una pestaña (módulo), escribe una cadena o pulsa un botón de **Ejemplos**, y usa **Iniciar**, **Paso ▶** (avanza un paso), **Auto** (animación) o **Reiniciar**.
+Elige una pestaña (módulo), escribe una cadena o pulsa un botón de **Ejemplos**, y usa **Iniciar**, **Paso** (avanza un paso), **Auto** (animación) o **Reiniciar**.
 
 ## Módulos y cadenas de prueba
 | Nivel | Modelo | Lenguaje | Acepta | Rechaza |
